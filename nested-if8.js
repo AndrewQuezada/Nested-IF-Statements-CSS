@@ -14,10 +14,10 @@ const prompt = require('prompt-sync')();
                                 let time= prompt("how many years? Enter years ");
 
                             if(time >= 5)
-                                   console.log("Qualified candidate")
+                                   console.log("Qualified candidate");
                                
                             else if(time < 5)
-                                   console.log("Entry-level consideration")
+                                   console.log("Entry-level consideration");
                             
                             }           
                   
@@ -28,4 +28,5 @@ const prompt = require('prompt-sync')();
     else{
 
         console.log("incorrect years");
+
     }
